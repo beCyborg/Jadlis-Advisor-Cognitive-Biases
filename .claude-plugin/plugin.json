@@ -1,8 +1,17 @@
 {
   "name": "jadlis-advisor-cognitive-biases",
   "description": "Evidence-based cognitive bias advisor — 5-tier ranking of 111 biases by effect sizes and replication data",
-  "version": "1.0.0",
-  "author": { "name": "beCyborg" },
+  "version": "1.1.0",
+  "author": {
+    "name": "beCyborg"
+  },
   "repository": "https://github.com/beCyborg/Jadlis-Advisor-Cognitive-Biases",
-  "keywords": ["cognitive-biases", "decision-making", "debiasing", "behavioral-science", "evidence-based"]
+  "keywords": [
+    "jadlis-advisor",
+    "cognitive-biases",
+    "decision-making",
+    "debiasing",
+    "behavioral-science",
+    "evidence-based"
+  ]
 }
