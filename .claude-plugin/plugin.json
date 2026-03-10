@@ -1,7 +1,7 @@
 {
   "name": "jadlis-advisor-cognitive-biases",
   "description": "Evidence-based cognitive bias advisor — 5-tier ranking of 111 biases by effect sizes and replication data",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": {
     "name": "beCyborg"
   },
