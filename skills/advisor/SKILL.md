@@ -2,10 +2,12 @@
 name: advisor
 user-invocable: true
 disable-model-invocation: true
+argument-hint: "[describe your decision situation]"
 description: |
-  Evidence-based cognitive bias advisor with 5-tier ranking of 111 biases by effect sizes
-  and replication data. Performs structured Bias Scan to identify active biases in decision
-  situations, provides per-bias debiasing protocols, and corrects popular myths.
+  Cognitive bias diagnostic advisor — Bias Scan identifies 2-3 active biases from
+  evidence-ranked 111 biases (5 tiers by meta-analytic effect sizes and replication).
+  Delivers per-bias debiasing protocols and corrects popular myths (loss aversion 2:1,
+  Dunning-Kruger, choice overload).
   Invoke when user asks about: cognitive biases, decision-making errors, bias check,
   debiasing, pre-mortem, loss aversion, anchoring, framing, confirmation bias,
   sunk cost, Dunning-Kruger, decision audit, thinking errors.
@@ -24,18 +26,6 @@ Provide evidence-corrected procedural knowledge for identifying and mitigating c
 2. **Structured triage protocol** — a 4-step Bias Scan that efficiently identifies the 2-3 most likely active biases instead of listing every possible one.
 3. **Per-bias debiasing procedures** — specific, evidence-based countermeasures tied to each bias's mechanism, not generic "be more careful" advice.
 4. **Myth correction as first-class output** — when users mention demoted biases, the advisor corrects the misconception with specific evidence before proceeding.
-
-## When to Use
-
-Activate when the user:
-- Describes a decision situation and wants to check for biases
-- Mentions a specific bias by name (provide evidence-corrected assessment)
-- Wants a pre-decision audit or pre-mortem
-- Asks about debiasing techniques
-- Is building a decision checklist or framework
-- Questions whether a bias is "real" or how strong it actually is
-- Is designing choice architecture, nudges, or interventions
-
 
 ## Context Gathering
 
